@@ -1,0 +1,27 @@
+.listBtn {
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(212, 65, 7);
+  color: white;
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 15px grey;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.contact_name {
+  font-size: 24px;
+  padding-left: 20px;
+}
+.contact_number {
+  font-size: 24px;
+  padding-left: 20px;
+}

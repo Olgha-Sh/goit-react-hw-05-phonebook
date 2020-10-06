@@ -1,0 +1,36 @@
+.contactForm {
+  /* background-color: rgb(207, 241, 250); */
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  padding: 10px 30px 50px 10px;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.contactForm label {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  margin: 30px 80px;
+  font-size: 24px;
+  color: rgb(2, 27, 102);
+}
+
+.contactForm input {
+  padding: 20px 70px;
+  font-size: 18px;
+}
+.formBtn {
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(4, 50, 189);
+  color: white;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+.formBtn:hover {
+  background-color: rgb(3, 30, 110);
+}
